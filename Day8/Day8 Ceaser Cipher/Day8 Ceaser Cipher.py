@@ -22,6 +22,9 @@ def ceaser_cipher(enc_dec,plain_text,shift_amount):
 should_end=False
 while not should_end:
     direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
+    if direction != "encode" and direction != "decode":
+        print("Invalid Method")
+        break
     text = input("Type your message:\n").lower()
     shift = int(input("Type the shift number:\n"))
     shift=shift%26
