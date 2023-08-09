@@ -1,0 +1,13 @@
+Day8 Goal:
+    1.Learn about Functions and parameter , Functions inputs
+    2. Create a Ceaser Cipher Program which encodes and decodes the string entered
+
+Tasks Completed:
+    1.Learned about Functions , parameter , keyword parameter , positional parameter
+    2.Programs Completed
+        1.Prime Number
+        2.Paint Calculate
+        3.Greet Function
+
+Task Incomplete:
+    1.Ceaser Cipher Program
