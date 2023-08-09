@@ -8,6 +8,6 @@ Tasks Completed:
         1.Prime Number
         2.Paint Calculate
         3.Greet Function
+        4.Ceaser Cipher Program
 
-Task Incomplete:
-    1.Ceaser Cipher Program
+Task Incomplete:None
