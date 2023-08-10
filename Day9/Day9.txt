@@ -1,0 +1,11 @@
+Day9 Goal:
+            1. Learn about Dictionaries and Nesting of Loop
+            2. Build a Auction game
+
+Task Completed:
+            1.
+
+
+Task Incomplete:
+            1. Learn about Dictionaries and Nesting of Loop
+            2. Build a Auction game
