@@ -1,0 +1,9 @@
+Day10 Goals:
+            1.Learn About functions with outputs
+            2. Build a Calculator
+
+
+Task Completed:
+
+
+Task InComplete:
