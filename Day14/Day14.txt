@@ -1,0 +1,4 @@
+Day14 Goal:
+            Build a Lower vs Higher game which compare follower count
+            If ans is correct increase the score by 1
+            If ans is wrong game ends and final score is showed
