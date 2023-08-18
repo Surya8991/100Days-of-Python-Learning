@@ -2,19 +2,6 @@
 import random
 from art import logo, vs
 from celeb_data import data
-
-# def celeb_follower_comp():
-#     if celebA["follower_count"]>celebB["follower_count"]:
-#         winner_count=celebA["follower_count"]
-#         print(celebA["name"],f"Wins with follwer count of {winner_count} Millons")
-#     elif celebA["follower_count"] < celebB["follower_count"]:
-#         winner_count=celebB["follower_count"]
-#         print(celebB["name"],f"Wins with follwer count of {winner_count} Millons")
-#     elif celebA["follower_count"] == celebB["follower_count"]:
-#         print("Draw as both as same follower count")
-
-# celeb_follower_comp()
-
 print(logo)
 
 score = 0
