@@ -39,20 +39,21 @@ def celeb_add_score():
     while not game_over:
         celebA = random_data()
         celebB = random_data()
-        print("CelebA :- ", celebA["name"],
-              celebA["follower_count"], celebA["description"])
-        print("CelebB :- ", celebB["name"],
-              celebB["follower_count"], celebB["description"])
-        celeb_follower_winner = celeb_follower_compare(celebA,celebB)
+        print("CelebA :- ", celebA["name"],"as",
+              celebA["description"], " from ", celebA['country'], "\n")
+        print(vs)
+        print("CelebB :- ", celebB["name"],"as",
+              celebB["description"]," from ", celebB['country'], "\n")
+        celeb_follower_winner = celeb_follower_compare(celebA, celebB)
         print(celeb_follower_winner)
         celeb_choice = input(
-            "Who has more followers ? Type 'A' or 'B' ").upper()
+            "Who has more followers ? Type 'A' or 'B' or 'both' if you think both have Equal follower count \n").upper()
         if celeb_follower_winner == celeb_choice:
             score += 1
-            print(f"Your guess is correct Your Score :- {score}")
+            print(f"\n 😊 Your guess is correct Your Score :- {score} \n")
         else:
             game_over = True
-            print(f"Sorry Wrong Answer! Your Final Score :- {score} ")
+            print(f"\n 🙃 Sorry Wrong Answer! Your Final Score :- {score} \n")
 
 
 def high_low_game():
