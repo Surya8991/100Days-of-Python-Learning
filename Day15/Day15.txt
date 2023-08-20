@@ -1,2 +1,3 @@
 Day15
     1:Installed Python & Python IDE Pycharm Locally
+    2: Coffee machine Project
