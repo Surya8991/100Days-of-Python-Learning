@@ -1,3 +1,7 @@
-Day15
+Day15 Goal:
     1:Installed Python & Python IDE Pycharm Locally
     2: Coffee machine Project
+
+Task Compeleted:
+     1:Installed Python & Python IDE Pycharm Locally
+     2: Coffee machine Project
