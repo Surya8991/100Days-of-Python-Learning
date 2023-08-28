@@ -1,3 +1,8 @@
 Day18 Goal:
             1. Learn about Turtle library
-            
+            2. Create art(Square) using Turtle library
+
+Task Compeleted:
+            1.Learned about Turtle library
+            2.Drawn a Square using Turtle
+            3.
