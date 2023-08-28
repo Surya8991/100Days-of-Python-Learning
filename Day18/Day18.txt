@@ -1,0 +1,3 @@
+Day18 Goal:
+            1. Learn about Turtle library
+            
