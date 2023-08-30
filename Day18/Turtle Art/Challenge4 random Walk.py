@@ -15,7 +15,7 @@ def random_walk(num_walks):
         tim.forward(30)
         tim.right(random.choice(direction))
 
-for walk_tim in range(3, 300):
+for walk_tim in range(3, 200):
     random_walk(walk_tim)
     tim.color(random.choices(colours))
 
