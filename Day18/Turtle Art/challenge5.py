@@ -19,7 +19,7 @@ def rand_color():
 def draw_spirograpph(num_sides):
     for _ in range(num_sides):
         tim.circle(100)
-        tim.right(10)
+        tim.right(5)
 
 # To specify no. of circles
 for shape_no in range(13):
