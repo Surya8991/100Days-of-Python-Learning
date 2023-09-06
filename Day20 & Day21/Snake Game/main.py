@@ -9,7 +9,7 @@ scr.tracer(0)
 
 snake=Snake()
 
-is_game_over=False
+is_game_over=True
 
 # To control the snake
 scr.listen()
@@ -18,14 +18,15 @@ scr.onkey(key="Down",fun=snake.down)
 scr.onkey(key="Left",fun=snake.left)
 scr.onkey(key="Right",fun=snake.right)
 # To move the turtle
-while not is_game_over:
+while is_game_over:
     # To turn off the animation and update after a delay
     scr.update()
     time.sleep(0.1)
     snake.move()
 
-        # if segment.xcor() > 290:
-        #     print("You lost")
-        #     is_game_over=False
+    if snake.head.xcor() > 280 or snake.head.xcor() < -280 or snake.head.ycor() > 280 or snake.head.ycor() < -280:
+        print("Game Over")
+        is_game_over = False
+
 
 scr.exitonclick()
