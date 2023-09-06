@@ -9,9 +9,11 @@ class Fish(Animal):
     # Using super().__init() we are inherting the properties of Animal class to Fish Class
     def __int__(self):
         super().__int__()
+    def breathe(self):
+        super().breathe()
+        print("doing this under water")
     def swim(self):
         print("Moving in water.")
 
 nemo=Fish()
-nemo.swim()
 nemo.breathe()
