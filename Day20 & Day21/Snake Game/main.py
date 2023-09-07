@@ -1,5 +1,7 @@
-from turtle import Turtle,Screen
+from turtle import Screen
+from food import Food
 from snake import Snake
+from scoreboard import Scoreboard
 import time
 scr=Screen()
 scr.setup(width=600,height=600)
@@ -8,7 +10,9 @@ scr.title("Welcome to Snake Game")
 scr.tracer(0)
 
 snake=Snake()
-
+food=Food()
+scoreboard = Scoreboard()
+scoreboard.update_score()
 is_game_over=True
 
 # To control the snake
@@ -23,10 +27,15 @@ while is_game_over:
     scr.update()
     time.sleep(0.1)
     snake.move()
-
-    if snake.head.xcor() > 280 or snake.head.xcor() < -280 or snake.head.ycor() > 280 or snake.head.ycor() < -280:
-        print("Game Over")
+    # Detect Food Collision with Food
+    if snake.head.distance(food)<15:
+        food.refresh()
+        scoreboard.increase_score()
+    # Detect Collision with wall
+    if snake.head.xcor() > 298 or snake.head.xcor() < -298 or snake.head.ycor() > 298 or snake.head.ycor() < -298:
+        scoreboard.game_over()
         is_game_over = False
+
 
 
 scr.exitonclick()
