@@ -123,3 +123,80 @@ Programs:
             print("You can ride and your fare is 5$")
     else:
         print("You are too short for the ride")
+
+## Day3
+
+Learned about Controllows and Logical Operations
+
+Control flows and logical operations are fundamental concepts in programming, including Python. They are essential for making decisions, controlling the flow of a program, and performing various operations based on conditions. Let's explore both concepts in Python:
+
+1. Control Flows:
+Control flows determine the order in which statements in a program are executed. Python provides several control flow structures:
+
+   a. Conditional Statements:
+      - `if`: Conditional statements allow you to execute code blocks based on a condition. If the condition is true, the indented block of code is executed. If the condition is false, the block is skipped.
+   
+      ```python
+      if condition:
+          # code to execute if the condition is true
+      else:
+          # code to execute if the condition is false
+      ```
+
+   b. Loops:
+      - `for`: The `for` loop is used to iterate over a sequence (e.g., a list or string) or a range of numbers.
+      
+      ```python
+      for item in iterable:
+          # code to execute for each item
+      ```
+
+      - `while`: The `while` loop continues to execute a block of code as long as a specified condition remains true.
+
+      ```python
+      while condition:
+          # code to execute while the condition is true
+      ```
+
+   c. Loop Control Statements:
+      - `break`: Terminates the current loop and jumps to the next statement outside the loop.
+      - `continue`: Skips the current iteration of the loop and moves to the next iteration.
+
+2. Logical Operations:
+Logical operations in Python involve evaluating and manipulating boolean values (`True` or `False`) to make decisions. Python provides the following logical operators:
+
+   a. `and`: The `and` operator returns `True` if both operands are `True`. Otherwise, it returns `False`.
+
+   ```python
+   if condition1 and condition2:
+       # code to execute if both conditions are true
+   ```
+
+   b. `or`: The `or` operator returns `True` if at least one of the operands is `True`. It returns `False` if both operands are `False`.
+
+   ```python
+   if condition1 or condition2:
+       # code to execute if at least one condition is true
+   ```
+
+   c. `not`: The `not` operator negates the boolean value of an expression. It returns `True` if the expression is `False`, and vice versa.
+
+   ```python
+   if not condition:
+       # code to execute if the condition is false
+   ```
+
+   d. Comparison Operators: These operators compare values and return boolean results.
+      - `==`: Equal to
+      - `!=`: Not equal to
+      - `<`: Less than
+      - `<=`: Less than or equal to
+      - `>`: Greater than
+      - `>=`: Greater than or equal to
+
+   ```python
+   if x == 10:
+       # code to execute if x is equal to 10
+   ```
+
+These control flow structures and logical operations are essential tools for creating conditional behavior, iterating through data, and making decisions in Python programs. They help you build complex algorithms and make your code more dynamic and responsive to different situations.
