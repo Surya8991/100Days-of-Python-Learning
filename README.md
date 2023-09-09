@@ -200,3 +200,61 @@ Logical operations in Python involve evaluating and manipulating boolean values 
    ```
 
 These control flow structures and logical operations are essential tools for creating conditional behavior, iterating through data, and making decisions in Python programs. They help you build complex algorithms and make your code more dynamic and responsive to different situations.
+
+### Programs
+
+    # Program to Print Leap year if year is divisible by 4 , 100 and 400 evenly
+    year=int(input("Enter Year \n"))
+    if year % 4 == 0 and year % 100 == 0 and year % 400 :
+        print(year," is a Leap Year")
+    else:
+        print(year," is not a Leap Year")
+
+
+    #Love Calculator Program
+    print("Welcome to the Love calculator\n")
+    name1 = input("Enter First Person Name\n")
+    name2 = input("Enter Second Person Name \n")
+
+    name1_count = str(sum(1 for char in name1.lower() if char in ['t', 'r', 'u', 'e']))
+    name2_count = str(sum(1 for char in name2.lower() if char in ['l', 'o', 'v', 'e']))
+    total_per = int(name1_count) + int(name2_count)
+
+    print(total_per)
+
+    if total_per < 10:
+        print(f"Your Score is {total_per}. You are like coke and mentos.")
+    elif 40 <= total_per <= 50:
+        print(f"Your Score is {total_per}. You are so-so.")
+    elif total_per > 90:
+        print(f"Your Score is {total_per}. You are like coke and mentos.")
+    else:
+        print(f"You are in love! Score is {total_per}.")
+
+    #Odd or Even Program
+    number = int(input("Which number do you want to check? "))
+    if number % 2 == 0:
+        print(number, "is a Even Number")
+    else:
+        print(number, "is a Odd Number")
+
+    # In this Program We are gonna learn loopsss
+    print("Welcome to Treasure Island.")
+    print("Your mission is to find the treasure.")
+    turn = input("Pick a Direction Left or Right!? \n")
+    if turn.lower() == 'left':
+        swim_wait = input("Do you wanna swim or wait? \n")
+        if swim_wait.lower() == "wait":
+            door = input("Congrats you have crossed the sea ! Pick a Door from Red , Green and Yellow Door and find the Treasure \n")
+            if door.lower() == "yellow":
+                print("Congratz You Win!😊")
+            elif door.lower() =="red":
+                print("Burned by fire Game Over!")
+            elif door.lower() == "green":
+                print("Eaten By Beast Game Over!")
+            else:
+                print("Killed by Hunters Game Over!")
+        else:
+            print("Attacked by Sharks Game Over!")
+    else:
+        print("Wrong Choice You fell into the River Game Over!")
